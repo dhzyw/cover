@@ -19,8 +19,8 @@ export default function Head({ className }: { className?: string }) {
           </div>
           <div className='h-full flex items-center justify-end'>
             <Button className='rounded-3xl'>
-              <a href='https://github.com/weizwz/cover' target='_blank'>
-                ⭐ Star on Github
+              <a href='https://www.dhzyw.com' target='_blank'>
+                大海资源网
               </a>
             </Button>
           </div>
