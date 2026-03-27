@@ -27,7 +27,7 @@ export default function Main() {
     <div className='pt-14 w-full flex flex-col items-center'>
       <section className='w-full px-4 md:px-12 pt-16 flex flex-col items-center gap-6 graph-paper-primary'>
         <div className='font-bold text-center'>
-          <h1 className='text-5xl md:text-6xl font-extrabold'>ThisCover</h1>
+          <h1 className='text-5xl md:text-6xl font-extrabold'>大海封面</h1>
           <h2 className='text-3xl md:text-4xl font-bold mt-4'>
             一个 <span className='underline decoration-wavy decoration-red-400 underline-offset-6'>免费、漂亮</span> 的{' '}
             <span className='text-primary'>封面生成器</span>
@@ -192,6 +192,15 @@ export default function Main() {
             <AccordionItem value='item-5'>
               <AccordionTrigger className='text-md'>无法下载、无法复制？</AccordionTrigger>
               <AccordionContent>图片下载、复制功能基本支持主流浏览器，请查看浏览器版本是否过低 或者 最好使用最新版chrome浏览器</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value='item-6'>
+              <AccordionTrigger className='text-md'>复制本站</AccordionTrigger>
+              <AccordionContent>
+                1. 感谢weizwz，rutikwankhade的开源代码，本站点基于二位作者的开源内容进行部署 <br/>2.部署教程和开源地址详见{' '}
+                <a className='text-primary underline' href='https://www.dhzyw.com/archives/8042.html' target='_blank'>
+                  大海资源网
+                </a>
+              </AccordionContent>
             </AccordionItem>
           </Accordion>
         </div>
