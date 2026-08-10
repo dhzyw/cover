@@ -2,7 +2,7 @@ export const HomeCovers = [
   {
     id: '1',
     name: 'demo1',
-    preview: 'https://p.weizwz.com/cover/ThisCover_20250817_113149_50f33c9237daf1c6.webp',
+    preview: '/cover/ThisCover_20250817_113149_50f33c9237daf1c6.webp',
     data: {
       title: 'VSCode 接入 DeepSeek V3 大模型',
       author: '唯知笔记',
@@ -32,7 +32,7 @@ export const HomeCovers = [
   {
     id: '2',
     name: 'demo2',
-    preview: 'https://p.weizwz.com/cover/ThisCover_20250817_162105_931f0a568023c6ef.webp',
+    preview: '/cover/ThisCover_20250817_162105_931f0a568023c6ef.webp',
     data: {
       title: '免费、漂亮的封面生成器',
       author: 'ThisCover',
@@ -73,7 +73,7 @@ export const HomeCovers = [
   {
     id: '3',
     name: 'demo3',
-    preview: 'https://p.weizwz.com/cover/ThisCover_20250817_170842_0f88bd188cabcecc.webp',
+    preview: '/cover/ThisCover_20250817_170842_0f88bd188cabcecc.webp',
     data: {
       title: 'OPPO主题组件开发',
       author: 'weizwz',
