@@ -252,9 +252,24 @@ export default function Main() {
       </section>
 
       <footer className='w-full px-4 md:px-12 py-12 flex flex-col items-center gap-4'>
+        <nav aria-label='友情链接' className='flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm'>
+          <span className='font-semibold text-slate-500'>友情链接</span>
+          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.dhzyw.cn/'>
+            大海个人页
+          </a>
+          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.dhjc.net/'>
+            大海教程
+          </a>
+          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.bczj.online/'>
+            大海资源网
+          </a>
+          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://tool.dhzyw.com/'>
+            大海工具箱
+          </a>
+        </nav>
         <p>
           Copyright © 2019{new Date().getFullYear() === 2025 ? '' : '-' + new Date().getFullYear()}
-          <a className='font-bold text-primary ml-2' target='_blank' href='https://www.dhzyw.com/'>
+          <a className='font-bold text-primary ml-2' target='_blank' rel='noopener noreferrer' href='https://www.bczj.online/'>
             大海资源网
           </a>
         </p>
