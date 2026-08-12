@@ -260,7 +260,7 @@ export default function Main() {
           <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.dhjc.net/'>
             大海教程
           </a>
-          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.bczj.online/'>
+          <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://www.dhzyw.com/'>
             大海资源网
           </a>
           <a className='font-medium text-slate-700 hover:text-primary transition-colors' target='_blank' rel='noopener noreferrer' href='https://tool.dhzyw.com/'>
@@ -269,7 +269,7 @@ export default function Main() {
         </nav>
         <p>
           Copyright © 2019{new Date().getFullYear() === 2025 ? '' : '-' + new Date().getFullYear()}
-          <a className='font-bold text-primary ml-2' target='_blank' rel='noopener noreferrer' href='https://www.bczj.online/'>
+          <a className='font-bold text-primary ml-2' target='_blank' rel='noopener noreferrer' href='https://www.dhzyw.com/'>
             大海资源网
           </a>
         </p>

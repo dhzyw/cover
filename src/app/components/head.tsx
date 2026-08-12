@@ -15,7 +15,7 @@ export default function Head({ className }: { className?: string }) {
         </Link>
         <nav aria-label='站点导航' className='h-full flex items-center justify-end gap-1 sm:gap-2'>
           <Button asChild size='sm' className='rounded-3xl px-2.5 sm:px-4 text-xs sm:text-sm'>
-            <a href='https://www.bczj.online/' target='_blank' rel='noopener noreferrer'>
+            <a href='https://www.dhzyw.com/' target='_blank' rel='noopener noreferrer'>
               大海资源网
             </a>
           </Button>
